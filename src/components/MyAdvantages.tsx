@@ -12,13 +12,13 @@ const MyAdvantages = (props: Props) => {
       </h2>
       <div className="mt-10 grid grid-cols-2 max-sm:gap-x-3 sm:grid-cols-2 max-sm:place-items-center  md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-8">
         {MyAdvantagesItems.map(({ title, icon, percentage }) => (
-          <div className="bg-black dark:bg-[#141414] p-5 pb-20 rounded-[20px] w-full max-w-[224px]">
+          <div className="bg-black dark:bg-[#141414] p-5 rounded-[20px] pb-10 w-full max-w-[224px]">
             <h3 className="uppercase text-white text-xs font-labilGR">
               {title}
             </h3>
             <Image
               src={require(`../assets/imgs/${icon}`)}
-              className="size-20 mx-auto mt-10"
+              className="size-20 mx-auto mt-14"
               alt=""
             />
             <h5 className="text-white text-center mt-8 text-xl">

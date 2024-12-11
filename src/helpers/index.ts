@@ -86,15 +86,21 @@ export const MyAdvantagesItems = [
     icon: "react-js-icon.png",
     percentage: "70%",
   },
+
+  {
+    title: "TypeScript",
+    icon: "typescript.png", // Replace with your actual icon reference
+    percentage: 92,
+  },
+  {
+    title: "Tailwind CSS",
+    icon: "tailwindcss-icon.png", // Replace with your actual icon reference
+    percentage: 90,
+  },
   {
     title: "Node js",
     icon: "node-js-icon.png",
     percentage: "70%",
-  },
-  {
-    title: "Figma",
-    icon: "figma-icon.png",
-    percentage: "50%",
   },
   {
     title: "Figma",
