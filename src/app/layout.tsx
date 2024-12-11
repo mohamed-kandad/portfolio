@@ -1,6 +1,18 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import localFont from "@next/font/local";
 import "./globals.css";
+import { ThemeProvider } from "next-themes";
+
+const fontLogo = localFont({
+  src: [
+    {
+      path: "../assets/fonts/FacultyGlyphic-Regular.ttf",
+      weight: "400",
+    },
+  ],
+  variable: "--font-logo",
+});
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +28,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`bg-primary text-white relative ${inter.className} overflow-x-hidden`}>{children}</body>
+      <body
+        className={`bg-white dark:bg-black text-white relative ${fontLogo.className} overflow-x-hidden`}
+      >
+        <ThemeProvider attribute="class">{children}</ThemeProvider>
+      </body>
     </html>
   );
 }
