@@ -6,7 +6,9 @@ type Props = {};
 const Projects = (props: Props) => {
   return (
     <div className="container mx-auto px-4  py-3 pt-6 text-black dark:text-white mt-10 lg:mt-20">
-      <h2 className="font-poppins font-medium text-xl lg:text-4xl">Projects</h2>
+      <h2 className="font-poppins font-medium text-2xl lg:text-4xl">
+        Projects
+      </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-12 mt-10">
         <div className="">
           <div className="aspect-square rounded-[32px] overflow-hidden bg-[#001A6E]">
