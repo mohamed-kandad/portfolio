@@ -40,6 +40,7 @@ const config: Config = {
           "monospace",
         ],
         poppins: ["Poppins", "sans-serif"],
+        labilGR: ["var(--font-lil-grotesk)"],
         logo: ["var(--font-logo)"],
       },
     },

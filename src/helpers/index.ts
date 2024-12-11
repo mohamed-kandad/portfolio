@@ -96,4 +96,9 @@ export const MyAdvantagesItems = [
     icon: "figma-icon.png",
     percentage: "50%",
   },
+  {
+    title: "Figma",
+    icon: "figma-icon.png",
+    percentage: "50%",
+  },
 ];
