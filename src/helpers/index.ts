@@ -20,7 +20,7 @@ export interface IProject {
     live?: string;
     github?: string;
   };
-  image?: StaticImageData; // The image will now be imported statically
+  image?: any; // The image will now be imported statically
   categorie?: string;
 }
 
