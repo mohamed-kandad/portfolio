@@ -16,11 +16,7 @@ const MyAdvantages = (props: Props) => {
             <h3 className="uppercase text-white text-xs font-labilGR">
               {title}
             </h3>
-            <Image
-              src={require(`../assets/imgs/${icon}`)}
-              className="size-20 mx-auto mt-14"
-              alt=""
-            />
+            <Image src={icon} className="size-20 mx-auto mt-14" alt="" />
             <h5 className="text-white text-center mt-8 text-xl">
               {percentage}
             </h5>

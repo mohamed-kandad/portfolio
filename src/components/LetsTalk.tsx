@@ -10,13 +10,23 @@ const LetsTalk = (props: Props) => {
       <h2 className="font-labilGR font-semibold text-[48px] md:text-[79px] lg:text-[140px]">
         Let´s talk!
       </h2>
-      <Link
-        href={"mailto:kandad.dev@gmail.com"}
-        className="font-labilGR bg-black w-fit  dark:bg-white text-white dark:text-black py-5 px-6 rounded-[144px] flex gap-2 items-center mx-auto mt-12"
-      >
-        kandad.dev@gmail.com
-        <MdArrowOutward />
-      </Link>
+      <div className="flex flex-col md:flex-row mt-12 gap-5 justify-center">
+        <Link
+          href={"mailto:kandad.dev@gmail.com"}
+          className="font-labilGR bg-black w-fit  dark:bg-white text-white dark:text-black py-5 px-6 rounded-[144px] flex gap-2 items-center"
+        >
+          kandad.dev@gmail.com
+          <MdArrowOutward />
+        </Link>
+        <Link
+          href={"https://wa.me/+212695208671"}
+          className="font-labilGR bg-black w-fit  dark:bg-white text-white dark:text-black py-5 px-6 rounded-[144px] flex gap-2 items-center"
+          target="_blank"
+        >
+          +212695208671
+          <MdArrowOutward />
+        </Link>
+      </div>
     </div>
   );
 };
