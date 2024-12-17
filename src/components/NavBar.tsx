@@ -1,11 +1,13 @@
 "use client";
 
 import { useTheme } from "next-themes";
+import Image from "next/image";
 import React from "react";
 import { BiMoon, BiNavigation, BiSun } from "react-icons/bi";
 import { FaFontAwesome } from "react-icons/fa6";
 import { IoMenu } from "react-icons/io5";
 import { SiUbuntu, SiUnacademy } from "react-icons/si";
+import MyLogo from "@/assets/imgs";
 
 type Props = {};
 
@@ -14,10 +16,8 @@ const NavBar = (props: Props) => {
 
   return (
     <div className="container mx-auto px-4 flex md:flex-col justify-between items-center md:items-stretch md:justify-normal text-center py-3 md:pt-6">
-      <h3 className="font-labilGR tracking-[6px] text-lg text-center  text-black dark:text-white font-bold md:mb-7">
-        M.kandad
-      </h3>
-      <ul className="items-center dark:bg-[#141414] hidden md:flex bg-black w-fit mx-auto rounded-[80px] p-1 gap-4 pr-3">
+      <MyLogo color={theme === "dark" ? "white" : "black"} />
+      <ul className="items-center mt-10 dark:bg-[#141414] hidden md:flex bg-black w-fit mx-auto rounded-[80px] p-1 gap-4 pr-3">
         <li className="cursor-pointer text-base font-labilGR px-4 py-2 bg-white text-black rounded-[80px]">
           Home
         </li>
