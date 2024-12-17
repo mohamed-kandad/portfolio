@@ -58,7 +58,8 @@ const Icon = ({ color = "#000" }) => (
     version="1.1"
     viewBox="0 0 1728 1728"
     xmlns="http://www.w3.org/2000/svg"
-    className="aspect-square w-10 md:mx-auto md:!mb-9"
+    width={50}
+    style={{ margin: "auto" }}
   >
     <path
       transform="translate(902)"
