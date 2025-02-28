@@ -4,6 +4,7 @@ import airbnbImage from "../assets/imgs/airbnb.png";
 import lmsImage from "../assets/imgs/LMS.png";
 import moviesBookingImage from "../assets/imgs/movies_booking.jpeg";
 import trainBookingImage from "../assets/imgs/train_booking.jpeg";
+import airsaver from "../assets/imgs/airsaver.jpeg";
 
 import nextjsIcon from "../assets/imgs/nextjs-icon.png";
 import reactIcon from "../assets/imgs/react-js-icon.png";
@@ -11,6 +12,7 @@ import typescriptIcon from "../assets/imgs/typescript.png";
 import tailwindIcon from "../assets/imgs/tailwindcss-icon.png";
 import nodejsIcon from "../assets/imgs/node-js-icon.png";
 import figmaIcon from "../assets/imgs/figma-icon.png";
+import jestIcon from "../assets/imgs/jest.png";
 
 export interface IProject {
   name: string;
@@ -66,6 +68,16 @@ export const projectsItems: IProject[] = [
     image: trainBookingImage, // Use imported image
     categorie: "Mobile App",
   },
+  {
+    name: "Air Saver",
+    desc: "A web app for students and teachers to upload and buy courses and watch online courses",
+    tech: ["Vs Code", "Next js", "Tailwind", "Node js"],
+    links: {
+      github: "https://github.com/mohamed-kandad/airSaver",
+    },
+    image: airsaver, // Use imported image
+    categorie: "Mobile App",
+  },
 ];
 
 export const MyAdvantagesItems = [
@@ -93,6 +105,11 @@ export const MyAdvantagesItems = [
     title: "Node js",
     icon: nodejsIcon, // Use the imported icon
     percentage: "70%",
+  },
+  {
+    title: "Jest",
+    icon: jestIcon, // Use the imported icon
+    percentage: "60%",
   },
   {
     title: "Figma",
