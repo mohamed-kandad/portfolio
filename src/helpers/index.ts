@@ -11,8 +11,8 @@ import reactIcon from "../assets/imgs/react-js-icon.png";
 import typescriptIcon from "../assets/imgs/typescript.png";
 import tailwindIcon from "../assets/imgs/tailwindcss-icon.png";
 import nodejsIcon from "../assets/imgs/node-js-icon.png";
-import figmaIcon from "../assets/imgs/figma-icon.png";
 import jestIcon from "../assets/imgs/jest.png";
+import figmaIcon from "../assets/imgs/figma-icon.png";
 
 export interface IProject {
   name: string;
