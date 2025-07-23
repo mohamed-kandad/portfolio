@@ -55,3 +55,7 @@ body {
   white-space: nowrap;
   animation: scroll 40s linear infinite;
 }
+
+html {
+  scroll-behavior: smooth;
+}

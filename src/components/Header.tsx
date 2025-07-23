@@ -1,6 +1,9 @@
 const Header = () => {
   return (
-    <div className="container mx-auto px-4  py-3 pt-6 text-black dark:text-white ">
+    <div
+      id="home"
+      className="container mx-auto px-4  py-3 pt-6 text-black dark:text-white "
+    >
       <h2 className="text-[60px] md:text-[100px] lg:text-[130px] xl:text-[227px] xl:leading-[250px] md:text-left  md:ps-0 m-auto font-labilGR font-bold  !w-fit inline">
         Websites& Applications
       </h2>

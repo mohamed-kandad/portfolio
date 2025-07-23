@@ -10,7 +10,10 @@ type Props = {};
 
 const Projects = (props: Props) => {
   return (
-    <div className="container mx-auto px-4  py-3 pt-6 text-black dark:text-white mt-10 lg:mt-20">
+    <div
+      id="projects"
+      className="container mx-auto px-4  py-3 pt-6 text-black dark:text-white mt-10 lg:mt-20"
+    >
       <h2 className="font-labilGR font-semibold text-2xl lg:text-4xl">
         Projects
       </h2>

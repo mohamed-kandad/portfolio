@@ -6,7 +6,10 @@ type Props = {};
 
 const LetsTalk = (props: Props) => {
   return (
-    <div className="container mx-auto px-4 text-center  py-3 pt-6 text-black dark:text-white mt-10 lg:mt-32">
+    <div
+      id="contact"
+      className="container mx-auto px-4 text-center  py-3 pt-6 text-black dark:text-white mt-10 lg:mt-32"
+    >
       <h2 className="font-labilGR font-semibold text-[48px] md:text-[79px] lg:text-[140px]">
         Let´s talk!
       </h2>
